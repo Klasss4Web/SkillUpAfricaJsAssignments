@@ -14,11 +14,11 @@ const kitchen = [
 console.log(kitchen[2][1])
 
 //Arrays of Technologies classified according to their similarities
- const technologies = [
+ const technologiesAndTechFirms = [
    ['paystack', 'flutterwave', 'interswitch'],['amazon', 'jumia', 'konga'],['javaScript', 'java', 'python']
  ]
 
- console.log(technologies[1][2])
+ console.log(technologiesAndTechFirms[1][2])
 
 
  //Arrays containing objects as items
@@ -39,4 +39,4 @@ console.log(kitchen[2][1])
    }
  ]
 
- console.log(sports[1].sportsName)
+ console.log(sports[0].worldTournament[0])
