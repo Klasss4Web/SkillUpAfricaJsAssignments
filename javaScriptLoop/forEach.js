@@ -1,4 +1,4 @@
-
+//An Array of objects containing informations about my JavaScript tutor
 const myJsTutor = [
   {
     name: 'Ebenezer Don',
@@ -18,9 +18,9 @@ const myJsTutor = [
   }
 ]
 
-
 console.log(myJsTutor)
 
+//Using forEach to output the second properties in each of the objects in myJsTutor Array
 myJsTutor.forEach(property => {
   console.log(property.goodTutor)
 })
