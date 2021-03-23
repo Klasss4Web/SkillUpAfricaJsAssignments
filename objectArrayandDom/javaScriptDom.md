@@ -1,4 +1,5 @@
-# JavaScript DOM
+# `JavaScript DOM`
 The Document Object Model is the data representation of the objects that comprise the structure and content of a document on the web.
 The DOM is a programming interface for HTML and XML documents. Its represent the page so that programs can change the document structure, style and content. The DOM represents the documents as nodes and objects. That way, programming languages can connect to the page.
 A web page is a document. This document can be either displayed in the browser window or as the HTML source, but it is thesame document in both cases. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
+Through the DOM we can add interactivity to any web page by using JavaScript to access the HTML elements of the page.

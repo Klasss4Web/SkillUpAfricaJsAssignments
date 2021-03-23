@@ -22,5 +22,8 @@ console.log(myJsTutor)
 
 //Using forEach to output the second properties in each of the objects in myJsTutor Array
 myJsTutor.forEach(property => {
-  console.log(property.goodTutor)
+  //Using Object.values to get the value of each object poperty and returning them as array
+  const objectValues = Object.values(property);
+  console.log(objectValues[1])
+  // console.log(property.goodTutor)
 })
