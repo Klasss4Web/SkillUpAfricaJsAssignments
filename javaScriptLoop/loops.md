@@ -1,4 +1,4 @@
-# LOOPs
+# LOOPS
 
 ## INFINITE LOOPS
 An infinite loop is a sequence of instructions will continue to execute endlessly unless and external intervention occurs('pull the plug). In this kind of loop, the condition is always true, and the loop will never reach an end. Below is an example of infinite loop written in javaScript.
@@ -23,7 +23,7 @@ numbers.forEach(number => {
 console.log(number);
 });
 
-## FOR OFF
+## FOR OF
 The for...of statement creates a loop iterating over iterable objects, including built-in String, Array, array-like objects (e.g., arguments or NodeList), TypedArray, Map, Set, and, Set, and user-defined iterables. It invokes a custom iteration hook with statements to be executed for the value of each distinct property of the object.
 
 for(variable of iterable) {
