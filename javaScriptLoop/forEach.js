@@ -1,17 +1,19 @@
-const arrayOfObjects = [
+const myJsTutor = [
   {
     name: 'Ebenezer Don',
-    stack: 'JavaScript Python RubyAndRails',
     goodTutor: true,
+    stack: 'JavaScript Python RubyAndRails',
   },
   {
     youtubeCourses: 'learn git and gitHub in 20 minutes',
+    goodTutor: true,
     udemyCourse: 'Web Development for absolute beginners',
-    price: '$11.99',
-    goodTutor: true
+    price: '$11.99' 
   }
 ]
 
-// arrayOfObjects.forEach(item => {
-//   console.log(item.props)
-// })
+console.log(myJsTutor);
+
+myJsTutor.forEach(item => {
+  console.log(item.goodTutor)
+})
