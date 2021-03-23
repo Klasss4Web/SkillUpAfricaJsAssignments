@@ -52,3 +52,4 @@ for(let value of iterable) {
   value += 1;
   console.log(value)
 }
+
