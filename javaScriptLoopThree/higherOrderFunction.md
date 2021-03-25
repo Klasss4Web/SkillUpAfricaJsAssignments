@@ -9,7 +9,7 @@ A “higher-order function” is a function that accepts
 functions as parameters and/or returns a function.
 
 ```
-const isEven = (n) => {
+const getEvenNumber = (n) => {
   return n % 2 == 0;
 }
 
@@ -19,9 +19,9 @@ let printMsg = (evenFunc, num) => {
   an even number: ${isNumEven}.`)
 }
 
-// Pass in isEven as the callback
+// Pass in getEvenNumber as the callback
 function
-printMsg(isEven, 4);
+printMsg(getEvenNumber, 4);
 // Prints: The number 4 is an even
 number: True.
 ```
@@ -59,9 +59,9 @@ Here, the .reduce() method will sum all the
 elements of the array.
 
 ```const arrayOfNumbers = [1, 2, 3, 4];
-const sum = arrayOfNumbers.reduce((accumulator,
+const sumAllNumbers = arrayOfNumbers.reduce((accumulator,
 currentValue) => {
 return accumulator + currentValue;
 });
-console.log(sum); // 10
+console.log(sumAllNumbers); // 10
 ```
