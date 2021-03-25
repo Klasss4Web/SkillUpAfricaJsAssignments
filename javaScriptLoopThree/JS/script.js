@@ -9,15 +9,15 @@ const sizes = {
 };
 
 function makeSrcset(imgSrc) {
-    let markup = [];
+    let markUp = [];
     let width = 400;
 
     for (let i = 0; i<5; i++) {
-        markup[i] = imgSrc + "-" + width + ".jpg " + width + "w";
+        markUp[i] = imgSrc + "-" + width + ".jpg " + width + "w";
         width+=400;
     }
 
-    return markup.join();
+    return markUp.join();
 }
 
 for (let index = 0; index < images.length; index++) {
@@ -28,6 +28,6 @@ for (let index = 0; index < images.length; index++) {
 
     let type = images[i].getAttribute("data-type");
     let imageSizes = sizes[type];
-    IMAGES[i].setAttribute("sizes", imageSizes);
+    images[i].setAttribute("sizes", imageSizes);
 
 }
