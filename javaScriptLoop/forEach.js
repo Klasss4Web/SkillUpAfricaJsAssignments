@@ -27,3 +27,5 @@ myJsTutor.forEach(property => {
   console.log(objectValues[1])
   // console.log(property.goodTutor)
 })
+
+// console.log(Object.keys(myJsTutor))

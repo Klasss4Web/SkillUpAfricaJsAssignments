@@ -40,3 +40,8 @@ console.log(kitchen[2][1])
  ]
 
  console.log(sports[0].worldTournament[0])
+
+//  sports.forEach((sportsName) => {
+//    let secondItem = Object.keys()
+//   console.log(secondItem)
+//  })
