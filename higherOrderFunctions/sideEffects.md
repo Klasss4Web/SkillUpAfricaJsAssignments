@@ -1,3 +1,5 @@
+` * Explain Side Effects *`
+
 ## Side Effects
 A `Side Effect` is any application state change that is observable outside the called function other than its return value.
 `Side Effects` are mostly avoided in `Functional Programming` which makes the effects of a program much easier to understand, and much easier to test. Keeping `Side effects` separate from the rest of your program logic, will enable your softtware to be much easier to extend, refactor, debug, text, and maintain.
